@@ -1,0 +1,184 @@
+.icon {
+    padding: 10px;
+    
+    text-align: center;
+   
+    margin: 5px 2px;
+  }
+  
+  .icon:hover {
+      opacity: 0.7;
+  }
+          *{transition:all 0.3s ease-in-out;
+          margin: 0px;}
+          .container{
+    clear:both;
+    overflow:auto;
+    background-color: blanchedalmond;
+    margin-top: 0px;
+  }
+  .active{
+      background-color: #f0886c;
+      color: #ffffff;
+  }
+  nav{padding-top: 60px;
+  
+  }
+  
+  .logo img{float:left;
+  margin-left: 30px;}
+  
+  ul li{
+    display: inline-block; padding:15px;
+    font-size:20px; font-family:raleway;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: white;
+    
+  }
+  
+  ul li:hover{
+    color:rgb(255, 255, 255);
+    background-color: #cc5639;
+    
+  }
+  .map:hover{
+    color:rgb(255, 255, 255);
+    background-color: #cc5639;
+    
+  }
+  .main_sec{
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 30px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 70%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+   
+   
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #eeb09f;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Style the tab */
+  .tab {
+    float: left;
+    
+    background-color: #ffffff;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: blanchedalmond;;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #cc735a;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #f0886c;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    
+  }
+  .tablinks{
+      border-radius: 15px;
+      margin-bottom: 10px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  .button {
+      box-shadow: 0px 10px 14px -7px #73275f;
+      background:linear-gradient(to bottom, #db9b9b 5%, #e89999 100%);
+      background-color:#f7b2d7;
+      border-radius:8px;
+      display:inline-block;
+      cursor:pointer;
+      color:#000000;
+      font-family:Verdana;
+      font-size:20px;
+      font-weight:bold;
+      padding:13px 32px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #7d3e8a;
+    margin-top: 30px;
+  }
+  .button:hover {
+      background:linear-gradient(to bottom, #e899d3 5%, #f7b2d7 100%);
+      background-color:#e899d3;
+  }
+  .button:active {
+      position:relative;
+      top:1px;
+  }

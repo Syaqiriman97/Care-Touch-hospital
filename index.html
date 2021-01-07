@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Care touch Hospital</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+          <img src="logo.png" alt="" width="140" height="140"/>
+          </div>
+          <div style="float: right;padding-top:20px;margin-right: 60px; "><a class="map" href="map.html" style="border: 4px solid white;
+          padding: 10px; text-decoration: none; font-size:20px;">Get direction</a><a  class="map" href="contact.html"style="border: 4px solid white;
+          padding: 10px;text-decoration: none;font-size:20px;">Contact Us</a></div>
+        <nav>
+          <ul>
+          <a href="index.html"><li class="active" style="margin-left:10px;margin-right:50px;  border-radius: 25px; padding-left: 
+          20px; padding-right: 20px;">HOME</li></a>
+         <a href="patient.html"> <li style="margin-right: 50px;  border-radius: 25px; padding-left: 
+          20px; padding-right: 20px;">PATIENT & VISITORS</li> </a>
+          <a href="doctor.html"><li style="margin-right: 50px; border-radius: 25px; padding-left: 
+          20px; padding-right: 20px;">FIND A DOCTOR</li></a>
+         <a href="medical.html"><li style="margin-right: 50px;  border-radius: 25px; padding-left: 
+          20px; padding-right: 20px;">MEDICAL SERVICES</li></a>
+         <a href="about.html"> <li style="  border-radius: 25px; padding-left: 
+          20px; padding-right: 20px;">ABOUT US</li></a>
+          </ul>
+          </nav>
+        </div>
+        <hr>
+        <div style="padding: 10px; padding-left: 30px; background-color: #f0886c ;">
+            <p>Home Page</p>
+
+        </div>
+        <div class="main_sec">
+          <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+               <center><h1 class="fakeimg">Welcome to Care Touch Hospital</h1></center> 
+                <hr>
+                <div class="fakeimg" > <img src="coronavirus.png" alt="" height="400px" width="100%"></div>
+               
+                
+                    
+              </div>
+            
+            </div>
+            <div class="rightcolumn">
+              
+              <div class="card">
+                <center>     <a href="#" class="myButton">CALL US</a>
+                    <a href="#" class="myButton">Request a call for appointment</a>
+                    
+                    <div class="fakeimg"> 
+                      <h3 class="icon">Follow US </h3>
+                    <div class="icon"> <a href="#" class="icon"> <img height="50px" width="50px" src="facebook.ico" alt=""> </a>
+                     <a href="#" class="icon"><img  height="50px" width="50px" src="insta.ico" alt=""></a>
+                     <a href="#" class="icon"><img height="50px" width="50px"src="twitter.ico" alt=""></a>
+                  </div>
+                  </div>
+              
+        
+              </div>
+                  
+          </div>
+          
+          
+          
+          </div>
+          <div >
+            
+         
+            <div class="card" style="padding-top: 0px;">
+              <center><h1 class="fakeimg">Awards & Accreditations</h1></center> 
+           
+              <div class="slideshow-container">
+   
+               <div class="mySlides fade">
+                 
+                 <img src="award1.png" style="height: 300px; width:100%;" alt="">
+                 <div class="text">Global Health Award 2019 </div>
+               </div>
+               
+               <div class="mySlides fade">
+                 
+                 <img src="award4.jpg" style="height: 300px;width:100%" alt>
+                 <div class="text">IHA Award 2020</div>
+               </div>
+               
+               <div class="mySlides fade">
+                 
+                 <img src="award3.jpg" style="height: 300px;width:100%" alt="">
+                 <div class="text">Finalist in Tomorrows health & Safety 2019</div>
+               </div>
+               
+               <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+               <a class="next" onclick="plusSlides(1)">&#10095;</a>
+               
+               </div>
+               <br>
+               
+               <div style="text-align:center">
+                 <span class="dot" onclick="currentSlide(1)"></span> 
+                 <span class="dot" onclick="currentSlide(2)"></span> 
+                 <span class="dot" onclick="currentSlide(3)"></span> 
+               </div>
+            </div>
+          </div>
+         
+           
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+            
+        </div>
+        <footer style="background-color: #f0886c;text-align: center;padding-top: 20px; padding-bottom: 20px;">
+          <p ><br>
+            <b>Caretouchhospital | International Islamic University Malysia | XX-XXXX XXXX | enquiries@caretouchhospital.com
+            </b>
+          </p><br>
+          <p><b>
+          Copyright © 2021 Caretouchhospital All Rights Reserved.</b></p>
+        </footer>
+       
+</body>
+</html>

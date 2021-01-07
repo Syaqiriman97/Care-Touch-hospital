@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor</title>
+    <link rel="stylesheet" href="doctor.css">
+    <style></style>
+   
+    </style>
+</head>
+<body>
+    
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="" width="140" height="140"/>
+      </div>
+      <div style="float: right;padding-top:20px;margin-right: 60px; "><a  class="map" href="map.html" style="border: 4px solid white;
+      padding: 10px; text-decoration: none; font-size:20px;">Get direction</a><a  class="map" href="contact.html"style="border: 4px solid white;
+      padding: 10px;text-decoration: none;font-size:20px;">Contact Us</a></div>
+    <nav>
+      <ul>
+      <a href="index.html"><li  style="margin-left:10px;margin-right:50px;  border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">HOME</li></a>
+     <a href="patient.html"> <li style="margin-right: 50px;  border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">PATIENT & VISITORS</li> </a>
+      <a href="doctor.html"><li class="active" style="margin-right: 50px; border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">FIND A DOCTOR</li></a>
+     <a href="medical.html"><li  style="margin-right: 50px;  border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">MEDICAL SERVICES</li></a>
+     <a href="about.html"> <li style="  border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">ABOUT US</li></a>
+      </ul>
+      </nav>
+    </div>
+        <hr>
+        <div style="padding: 10px; padding-left: 30px; background-color: #f0886c ;">
+            <p>Home Page > Find A Doctor</p>
+
+        </div>
+        <div class="main_sec">
+            
+<div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        
+        <center>
+          <img style="width: 50%;"src="doctor.jpg" alt=""><h2 style="margin-bottom: 20px; background-color: #ddd; width: 30%;padding: 10px; border-radius: 10px;">FIND A DOCTOR</h2>
+        <input style="width: 50%; " type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"></center>
+        
+        <ul id="myUL">
+          <li><a href="#" onclick="alert('NAME: DR Adele | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Adele</a></li>
+          <li><a href="#" onclick="alert('NAME: DR Agnes | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Agnes</a></li>
+        
+          <li><a href="# " onclick="alert('NAME: DR Billy | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Billy</a></li>
+          <li><a href="#"onclick="alert('NAME: DR Bob | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Bob</a></li>
+        
+          <li><a href="#" onclick="alert('NAME: DR Calvin | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Calvin</a></li>
+          <li><a href="#" onclick="alert('NAME: DR Christina | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Christina</a></li>
+          <li><a href="#" onclick="alert('NAME: DR Cindy | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Cindy</a></li>
+          <li><a href="#" onclick="alert('NAME: DR Hammam | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Hammam</a></li>
+          <li><a href="#" onclick="alert('NAME: DR IBN Sina | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">IBN Sina</a></li>
+        
+          <li><a href="#" onclick="alert('NAME: DR Haris | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Haris</a></li>
+          <li><a href="#" onclick="alert('NAME: DR Sophia | SPECIALIST: Family Medicine  |  CONTACT: XX XXX XXX')">Sophia</a></li>
+        
+         
+        </ul>
+        
+        <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+        </script>
+        
+            
+      </div>
+      <div class="card">
+          
+      </div>
+    </div>
+    <div class="rightcolumn">
+      
+      <div class="card">
+        <center>     <a href="#" class="myButton">CALL US</a>
+            <a href="#" class="myButton">Request a call for appointment</a>
+            
+            <div class="fakeimg"> 
+              <h3 class="icon">Follow US </h3>
+            <div class="icon"> <a href="#" class="icon"> <img height="50px" width="50px" src="facebook.ico" alt=""> </a>
+             <a href="#" class="icon"><img height="50px" width="50px" src="insta.ico" alt=""></a>
+             <a href="#" class="icon"><img height="50px" width="50px"src="twitter.ico" alt=""></a>
+          </div>
+          </div>
+      
+
+      </div>
+          
+  </div>
+  
+  
+  
+  </div>
+        </div>
+        <footer style="background-color: #f0886c;text-align: center;padding-top: 20px; padding-bottom: 20px;">
+          <p ><br>
+            <b>Caretouchhospital | International Islamic University Malysia | XX-XXXX XXXX | enquiries@caretouchhospital.com
+            </b>
+          </p><br>
+          <p><b>
+          Copyright © 2021 Caretouchhospital All Rights Reserved.</b></p>
+        </footer>
+       
+</body>
+</html>

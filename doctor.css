@@ -1,0 +1,165 @@
+.icon {
+    padding: 10px;
+    
+    text-align: center;
+   
+    margin: 5px 2px;
+  }
+  
+  .icon:hover {
+      opacity: 0.7;
+  }
+    
+        
+  .myButton {
+      box-shadow: 0px 10px 14px -7px #cf9080;
+      background:linear-gradient(to bottom, #f0896c 5%, #e0775c 100%);
+      background-color:#f0896c;
+      border-radius:10px;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Trebuchet MS;
+      font-size:16px;
+      font-weight:bold;
+      padding:13px 32px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #cc5639;
+      margin-bottom: 20px;
+  }
+  .myButton:hover {
+      background:linear-gradient(to bottom, #e0775c 5%, #f0896c 100%);
+      background-color:#e0775c;
+  }
+  .myButton:active {
+      position:relative;
+      top:1px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+          *{transition:all 0.3s ease-in-out;
+          margin: 0px;}
+          .container{
+    clear:both;
+    overflow:auto;
+    background-color: blanchedalmond;
+    margin-top: 0px;
+  }
+  .active{
+      background-color: #f0886c;
+      color: #ffffff;
+  }
+  nav{padding-top: 60px;
+  
+  }
+  
+  .logo img{float:left;
+  margin-left: 30px;}
+  
+  ul li{
+    display: inline-block; padding:15px;
+    font-size:20px; font-family:raleway;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: white;
+    
+  }
+  
+  ul li:hover{
+    color:rgb(255, 255, 255);
+    background-color: #cc5639;
+    
+  }
+  .map:hover{
+    color:rgb(255, 255, 255);
+    background-color: #cc5639;
+    
+  }
+  .main_sec{
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 70%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+   
+   
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #eeb09f;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     
+     padding: 20px;
+     margin-top: 20px;
+     padding-top: 0px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 120px;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    width:300px;
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  
+  

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="" width="140" height="140"/>
+      </div>
+      <div style="float: right;padding-top:20px;margin-right: 60px; "><a class="map" href="map.html" style="border: 4px solid white;
+      padding: 10px; text-decoration: none; font-size:20px;">Get direction</a><a class="active" class="map" href="contact.html"style="border: 4px solid white;
+      padding: 10px;text-decoration: none;font-size:20px;">Contact Us</a></div>
+    <nav>
+      <ul>
+      <a href="index.html"><li  style="margin-left:10px;margin-right:50px;  border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">HOME</li></a>
+     <a href="patient.html"> <li style="margin-right: 50px;  border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">PATIENT & VISITORS</li> </a>
+      <a href="doctor.html"><li style="margin-right: 50px; border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">FIND A DOCTOR</li></a>
+     <a href="medical.html"><li  style="margin-right: 50px;  border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">MEDICAL SERVICES</li></a>
+     <a href="about.html"> <li style="  border-radius: 25px; padding-left: 
+      20px; padding-right: 20px;">ABOUT US</li></a>
+      </ul>
+      </nav>
+    </div>
+        <hr>
+        <div style="padding: 10px; padding-left: 30px; background-color: #f0886c ;">
+            <p>Contact</p>
+
+        </div>
+        <img src="contact1.jpg" alt="" width="100%" height="300px">
+        <div class="main_sec">
+            <form name="myform" method="post" action="" onsubmit="return validateform()" >  
+                   
+                <input type="text" name="name" placeholder="Name"> 
+              <input type="email" name="email" placeholder="Email" style="margin-bottom: 10px;">
+             <input type="text" name="occupation" placeholder="Occupation">
+              <input type="text" name="subject" placeholder="Subject">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Write your message........"></textarea>
+           
+               <input type="submit" value="Submit">  
+               </form> 
+                     
+               <div class="fakeimg"> 
+                <h3 class="icon">Follow US </h3>
+              <div class="icon"> <a href="#" class="icon"> <img height="50px" width="50px"src="facebook.ico" alt=""> </a>
+               <a href="#" class="icon"><img height="50px" width="50px"src="insta.ico" alt=""></a>
+               <a href="#" class="icon"><img height="50px" width="50px" src="twitter.ico" alt=""></a>
+            </div>
+            </div>
+        </div>
+        <footer style="background-color: #f0886c;text-align: center;padding-top: 20px; padding-bottom: 20px; clear: both;">
+            <p ><br>
+                <b>Caretouchhospital | International Islamic University Malysia | XX-XXXX XXXX | enquiries@caretouchhospital.com
+                </b>
+              </p><br>
+              <p><b>
+              Copyright © 2021 Caretouchhospital All Rights Reserved.</b></p>
+        </footer>
+       
+<script>  
+       
+    function validateform(){  
+    var name=document.myform.name.value;  
+    var email=document.myform.email.value;  
+    var occupation=document.myform.occupation.value; 
+    var subject=document.myform.subject.value;   
+      
+    if (name==null || name==""){  
+      alert("Name can't be blank");  
+      return false;  
+    }else if(email==null || email==""){  
+      alert("Email can't be blank.");  
+      return false;  
+      }  
+      else if(occupation==null || occupation==""){  
+      alert("occupation can't be blank.");  
+      return false;  
+      } 
+      else if(subject==null || subject==""){  
+      alert("Subject can't be blank.");  
+      return false;  
+      } 
+    }  
+   
+
+</script>  
+</body>
+</html>

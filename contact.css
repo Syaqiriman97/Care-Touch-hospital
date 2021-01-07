@@ -1,0 +1,151 @@
+*{transition:all 0.3s ease-in-out;
+    margin: 0px;}
+    .container{
+clear:both;
+overflow:auto;
+background-color: blanchedalmond;
+margin-top: 0px;
+}
+.active{
+background-color: #f0886c;
+color: #ffffff;
+}
+nav{padding-top: 60px;
+
+}
+
+.logo img{float:left;
+margin-left: 30px;}
+
+ul li{
+display: inline-block; padding:15px;
+font-size:20px; font-family:raleway;
+font-weight: 600;
+margin-top: 20px;
+background-color: white;
+
+}
+
+ul li:hover{
+color:rgb(255, 255, 255);
+background-color: #cc5639;
+
+}
+.map:hover{
+color:rgb(255, 255, 255);
+background-color: #cc5639;
+
+}
+.main_sec{
+padding-left: 130px;
+padding-right: 30px;
+padding-top: 30px;
+}
+
+
+form {
+width: 500px;
+background:#f19277b2;
+padding: 15px 40px 40px;
+border: 1px solid #ccc;
+margin:  auto 0;
+border-radius: 5px;
+margin-bottom: 30px;
+box-shadow: 10px 10px 5px grey;
+float:left;
+}
+
+
+input, select {
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 10 px;
+display: block;
+width: 100%;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.row {
+padding-bottom: 10px;
+}
+.form-inline {
+border: 1px solid #ccc;
+padding: 8px 10px 4px;
+border-radius: 2px;
+}
+.form-inline label, .form-inline input {
+display: inline-block;
+width: auto;
+padding-right: 15px;
+}
+.error {
+color: red;
+font-size: 90%;
+}
+input[type="submit"] {
+font-size: 110%;
+font-weight: 100;
+background: #f0886c;
+border-color: #f0886c;
+box-shadow: 0 3px 0 #f08d72;
+color: #fff;
+margin-top: 10px;
+cursor: pointer;
+}
+input[type="submit"]:hover {
+background:#eb9077;
+}
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=submit] {
+background-color: #f0886c;
+color: white;
+padding: 12px 20px;
+border: none;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #eb7656;
+}
+column {
+float: left;
+width: 50%;
+margin-top: 6px;
+padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+
+margin-bottom: 30px;
+}
+* {
+box-sizing: border-box;
+}
+.fakeimg {
+background-color:  #eeb09f;
+
+padding: 20px;
+margin-left: 600px;
+margin-top: 170px;
+}
+.icon {
+padding: 10px;
+text-align: center;
+margin: 5px 2px;
+
+}
+
+.icon:hover {
+opacity: 0.7;
+}
